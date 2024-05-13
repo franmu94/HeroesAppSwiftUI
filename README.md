@@ -4,7 +4,9 @@
 HeroesApp es una aplicación que utiliza datos estructurados en formato JSON para mostrar información sobre distintos héroes. Cada héroe tiene atributos únicos que incluyen identificación, nombre real, apodo, descripción, edad, poderes e imágenes asociadas.
 
 ## Estructura JSON
-La aplicación consume datos desde un archivo `.json` que incluye registros detallados de varios héroes. Aquí tienes un ejemplo de cómo se estructura cada héroe en el archivo:
+La aplicación consume datos desde un archivo `.json`  local que incluye registros detallados de varios héroes. 
+
+Se facilita un ejemplo de cómo se estructura cada héroe en el archivo:
 
 ```json
 {
@@ -47,6 +49,4 @@ En la lista de Heroes podemos seleccionar un heroe y se mostrara en detalle de e
 
 Ademas, se ha incorporado la opcion _Comparar_, para que se pueda comparar el heroe del detalle con cualquier otro heroe. 
 
-
-![DetalleHeroe](/Imagenes/VideoComparar.gif) 
-<img src="/Imagenes/VideoComparar.gif" width="400" height="1000" alt="DetalleHeroe">
+<img src="/Imagenes/VideoComparar.gif" width="350" height="800" alt="DetalleHeroe">
