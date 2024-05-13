@@ -49,4 +49,4 @@ Ademas, se ha incorporado la opcion _Comparar_, para que se pueda comparar el he
 
 
 ![DetalleHeroe](/Imagenes/VideoComparar.gif) 
-<img src="/Imagenes/VideoComparar.gif" width="400" height="300" alt="DetalleHeroe">
+<img src="/Imagenes/VideoComparar.gif" width="400" height="1000" alt="DetalleHeroe">
