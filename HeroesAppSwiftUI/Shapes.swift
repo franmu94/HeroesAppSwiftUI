@@ -5,4 +5,4 @@
 //  Created by Fran Malo on 14/4/24.
 //
 
-import Foundation
+import SwiftUI

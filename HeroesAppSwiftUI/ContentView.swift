@@ -8,17 +8,30 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var vm = HeroesViewModel()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack {
+            List{
+                ForEach(vm.heroes) { heroe in
+                    NavigationLink(value: heroe){
+                        HeroesRow(heroe: heroe)
+                    }
+                }
+                .onDelete(perform: vm.deleteHeroe)
+                .onMove(perform: vm.moveHeroe)
+
+            }
+            .navigationTitle("Heroes")
+            .navigationDestination(for: Heroe.self) { heroe in
+                HeroesDetailView(heroe1: heroe)
+            }
         }
-        .padding()
     }
 }
 
 #Preview {
     ContentView()
 }
+
+

@@ -8,11 +8,27 @@
 import SwiftUI
 
 struct ListaFiltradaPoder: View {
+    let poder: Poderes
+    @ObservedObject var vm = HeroesViewModel()
+    var lista: [Heroe] {
+        vm.heroes.filter { $0.poderes.contains(poder) }
+    }
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("Usuarios")
+        ScrollView {
+            ForEach(lista) { heroe in
+                HeroesRow(heroe: heroe)
+            }
+            .padding()
+
+        }
+        .navigationTitle(poder.rawValue)
     }
 }
 
 #Preview {
-    ListaFiltradaPoder()
+    NavigationStack{
+        ListaFiltradaPoder(poder: .vuelo)
+    }
 }

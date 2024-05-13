@@ -6,3 +6,13 @@
 //
 
 import Foundation
+
+protocol DataInteractor {
+    func loadHeroes() throws -> [Heroe]
+    func saveHeroe(heroes: [Heroe]) throws
+}
+
+protocol DataInteractorEquipos {
+    func loadEquipos() throws -> [EquipoModel]
+    func saveEquipos(equipos: [EquipoModel]) throws
+}

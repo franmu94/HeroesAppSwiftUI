@@ -11,7 +11,7 @@ import SwiftUI
 struct HeroesAppSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HeroesTabView()
         }
     }
 }

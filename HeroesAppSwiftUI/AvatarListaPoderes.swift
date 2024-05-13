@@ -8,11 +8,28 @@
 import SwiftUI
 
 struct AvatarListaPoderes: View {
+  
+    let heroe: Heroe
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        ForEach(heroe.poderes, id: \.self) { poder in
+            VStack{
+                Image(poder.rawValue)
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 65)
+                Text(poder.rawValue)
+                    .multilineTextAlignment(.center)
+                    .frame(width: 110)
+                    .font(.system(size: 13, weight: .bold))
+                    .foregroundStyle(.secondary)
+                
+            }
+        }
     }
 }
 
 #Preview {
-    AvatarListaPoderes()
+    AvatarListaPoderes(heroe: Heroe.preview)
 }

@@ -8,11 +8,29 @@
 import SwiftUI
 
 struct HeroesRow: View {
+    let heroe: Heroe
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack {
+            VStack(alignment: .leading) {
+                Text(heroe.apodo)
+                    .font(.headline)
+                Text(heroe.nombreReal)
+                    .font(.footnote)
+                    .foregroundStyle(.secondary)
+            }
+            Spacer()
+            Image(heroe.imagen)
+                .resizable()
+                .scaledToFit()
+                .frame(width: 100)
+                .clipShape(RoundedRectangle(cornerRadius: 10))
+        }
     }
 }
 
 #Preview {
-    HeroesRow()
+    List {
+        HeroesRow(heroe: .preview)
+    }
 }

@@ -7,18 +7,72 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D36058EC2BD258F300D8540A /* EnlaceCreacionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36058EB2BD258F300D8540A /* EnlaceCreacionView.swift */; };
 		D369ED652BC3C6D800B64F1F /* HeroesAppSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D369ED642BC3C6D800B64F1F /* HeroesAppSwiftUIApp.swift */; };
 		D369ED672BC3C6D800B64F1F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D369ED662BC3C6D800B64F1F /* ContentView.swift */; };
 		D369ED692BC3C6DA00B64F1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D369ED682BC3C6DA00B64F1F /* Assets.xcassets */; };
 		D369ED6C2BC3C6DA00B64F1F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D369ED6B2BC3C6DA00B64F1F /* Preview Assets.xcassets */; };
+		D369ED7A2BC3CA9200B64F1F /* SuperHeroes.json in Resources */ = {isa = PBXBuildFile; fileRef = D369ED792BC3CA9200B64F1F /* SuperHeroes.json */; };
+		D369ED7C2BC3CCAD00B64F1F /* HeroesModelDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = D369ED7B2BC3CCAD00B64F1F /* HeroesModelDTO.swift */; };
+		D369ED7E2BC3CF7D00B64F1F /* HeroesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D369ED7D2BC3CF7D00B64F1F /* HeroesModel.swift */; };
+		D369ED812BC3D10F00B64F1F /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = D369ED802BC3D10F00B64F1F /* Enums.swift */; };
+		D369ED832BC3F02F00B64F1F /* DataInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D369ED822BC3F02F00B64F1F /* DataInteractor.swift */; };
+		D369ED852BC3FE0500B64F1F /* HeroeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D369ED842BC3FE0500B64F1F /* HeroeInteractor.swift */; };
+		D369ED872BC4023700B64F1F /* HeroesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D369ED862BC4023600B64F1F /* HeroesViewModel.swift */; };
+		D369ED892BC44F0600B64F1F /* HeroesRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D369ED882BC44F0600B64F1F /* HeroesRow.swift */; };
+		D369ED8B2BC44F4D00B64F1F /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D369ED8A2BC44F4D00B64F1F /* PreviewData.swift */; };
+		D369ED8D2BC450DF00B64F1F /* HeroesDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D369ED8C2BC450DF00B64F1F /* HeroesDetailView.swift */; };
+		D369EDD32BC6999800B64F1F /* DetailCompared.swift in Sources */ = {isa = PBXBuildFile; fileRef = D369EDD22BC6999800B64F1F /* DetailCompared.swift */; };
+		D369EDD72BC6D5B500B64F1F /* AvatarListaPoderes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D369EDD62BC6D5B500B64F1F /* AvatarListaPoderes.swift */; };
+		D369EE2D2BC922DF00B64F1F /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D369EE2C2BC922DF00B64F1F /* Extension.swift */; };
+		D3A706E52BC9493300911534 /* PoderMiniCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A706E42BC9493300911534 /* PoderMiniCard.swift */; };
+		D3A706E72BC94C6A00911534 /* PoderesGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A706E62BC94C6A00911534 /* PoderesGridView.swift */; };
+		D3A706F02BCC2DF500911534 /* ShapesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A706EF2BCC2DF500911534 /* ShapesView.swift */; };
+		D3A706F22BCC444C00911534 /* PoderMinicardSeria.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A706F12BCC444C00911534 /* PoderMinicardSeria.swift */; };
+		D3A706F42BCD0D9500911534 /* ListaFiltradaPoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A706F32BCD0D9500911534 /* ListaFiltradaPoder.swift */; };
+		D3A706F62BCD18B100911534 /* HeroesTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A706F52BCD18B100911534 /* HeroesTabView.swift */; };
+		D3A8D1692BE8FC3A00FA8A54 /* EquiposModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A8D1682BE8FC3A00FA8A54 /* EquiposModel.swift */; };
+		D3A8D16B2BE9321900FA8A54 /* EquiposViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A8D16A2BE9321900FA8A54 /* EquiposViewModel.swift */; };
+		D3A8D16D2BE933BD00FA8A54 /* ListaEquiposView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A8D16C2BE933BD00FA8A54 /* ListaEquiposView.swift */; };
+		D3A8D16F2BE9426C00FA8A54 /* CreacionEquipoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A8D16E2BE9426C00FA8A54 /* CreacionEquipoView.swift */; };
+		D3A8D1712BE98D7A00FA8A54 /* DetailEquipo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A8D1702BE98D7A00FA8A54 /* DetailEquipo.swift */; };
+		D3A8D1732BE98D9700FA8A54 /* EquipoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A8D1722BE98D9700FA8A54 /* EquipoRow.swift */; };
+		D3A8D1752BEA2AAD00FA8A54 /* EquipoInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A8D1742BEA2AAD00FA8A54 /* EquipoInteractor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D36058EB2BD258F300D8540A /* EnlaceCreacionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnlaceCreacionView.swift; sourceTree = "<group>"; };
 		D369ED612BC3C6D800B64F1F /* HeroesAppSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeroesAppSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D369ED642BC3C6D800B64F1F /* HeroesAppSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesAppSwiftUIApp.swift; sourceTree = "<group>"; };
 		D369ED662BC3C6D800B64F1F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D369ED682BC3C6DA00B64F1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D369ED6B2BC3C6DA00B64F1F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D369ED792BC3CA9200B64F1F /* SuperHeroes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SuperHeroes.json; sourceTree = "<group>"; };
+		D369ED7B2BC3CCAD00B64F1F /* HeroesModelDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesModelDTO.swift; sourceTree = "<group>"; };
+		D369ED7D2BC3CF7D00B64F1F /* HeroesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesModel.swift; sourceTree = "<group>"; };
+		D369ED802BC3D10F00B64F1F /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		D369ED822BC3F02F00B64F1F /* DataInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataInteractor.swift; sourceTree = "<group>"; };
+		D369ED842BC3FE0500B64F1F /* HeroeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroeInteractor.swift; sourceTree = "<group>"; };
+		D369ED862BC4023600B64F1F /* HeroesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesViewModel.swift; sourceTree = "<group>"; };
+		D369ED882BC44F0600B64F1F /* HeroesRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesRow.swift; sourceTree = "<group>"; };
+		D369ED8A2BC44F4D00B64F1F /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
+		D369ED8C2BC450DF00B64F1F /* HeroesDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesDetailView.swift; sourceTree = "<group>"; };
+		D369EDD22BC6999800B64F1F /* DetailCompared.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCompared.swift; sourceTree = "<group>"; };
+		D369EDD62BC6D5B500B64F1F /* AvatarListaPoderes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarListaPoderes.swift; sourceTree = "<group>"; };
+		D369EE2C2BC922DF00B64F1F /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		D3A706E42BC9493300911534 /* PoderMiniCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoderMiniCard.swift; sourceTree = "<group>"; };
+		D3A706E62BC94C6A00911534 /* PoderesGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoderesGridView.swift; sourceTree = "<group>"; };
+		D3A706EF2BCC2DF500911534 /* ShapesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesView.swift; sourceTree = "<group>"; };
+		D3A706F12BCC444C00911534 /* PoderMinicardSeria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoderMinicardSeria.swift; sourceTree = "<group>"; };
+		D3A706F32BCD0D9500911534 /* ListaFiltradaPoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaFiltradaPoder.swift; sourceTree = "<group>"; };
+		D3A706F52BCD18B100911534 /* HeroesTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesTabView.swift; sourceTree = "<group>"; };
+		D3A8D1682BE8FC3A00FA8A54 /* EquiposModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquiposModel.swift; sourceTree = "<group>"; };
+		D3A8D16A2BE9321900FA8A54 /* EquiposViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquiposViewModel.swift; sourceTree = "<group>"; };
+		D3A8D16C2BE933BD00FA8A54 /* ListaEquiposView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaEquiposView.swift; sourceTree = "<group>"; };
+		D3A8D16E2BE9426C00FA8A54 /* CreacionEquipoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreacionEquipoView.swift; sourceTree = "<group>"; };
+		D3A8D1702BE98D7A00FA8A54 /* DetailEquipo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEquipo.swift; sourceTree = "<group>"; };
+		D3A8D1722BE98D9700FA8A54 /* EquipoRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipoRow.swift; sourceTree = "<group>"; };
+		D3A8D1742BEA2AAD00FA8A54 /* EquipoInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipoInteractor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +105,14 @@
 		D369ED632BC3C6D800B64F1F /* HeroesAppSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				D369ED642BC3C6D800B64F1F /* HeroesAppSwiftUIApp.swift */,
-				D369ED662BC3C6D800B64F1F /* ContentView.swift */,
+				D369ED772BC3CA0100B64F1F /* Views */,
+				D369ED762BC3C9CA00B64F1F /* Components */,
+				D369ED752BC3C9B800B64F1F /* ViewModels */,
+				D369ED742BC3C9A900B64F1F /* Interactor */,
+				D369ED732BC3C9A000B64F1F /* Model */,
 				D369ED682BC3C6DA00B64F1F /* Assets.xcassets */,
+				D369ED722BC3C97100B64F1F /* Resources */,
+				D369ED782BC3CA1300B64F1F /* System */,
 				D369ED6A2BC3C6DA00B64F1F /* Preview Content */,
 			);
 			path = HeroesAppSwiftUI;
@@ -63,8 +122,86 @@
 			isa = PBXGroup;
 			children = (
 				D369ED6B2BC3C6DA00B64F1F /* Preview Assets.xcassets */,
+				D369ED8A2BC44F4D00B64F1F /* PreviewData.swift */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D369ED722BC3C97100B64F1F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D369ED792BC3CA9200B64F1F /* SuperHeroes.json */,
+				D369ED802BC3D10F00B64F1F /* Enums.swift */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D369ED732BC3C9A000B64F1F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D369ED7B2BC3CCAD00B64F1F /* HeroesModelDTO.swift */,
+				D369ED7D2BC3CF7D00B64F1F /* HeroesModel.swift */,
+				D3A8D1682BE8FC3A00FA8A54 /* EquiposModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		D369ED742BC3C9A900B64F1F /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				D369ED842BC3FE0500B64F1F /* HeroeInteractor.swift */,
+				D3A8D1742BEA2AAD00FA8A54 /* EquipoInteractor.swift */,
+				D369ED822BC3F02F00B64F1F /* DataInteractor.swift */,
+			);
+			name = Interactor;
+			sourceTree = "<group>";
+		};
+		D369ED752BC3C9B800B64F1F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				D369ED862BC4023600B64F1F /* HeroesViewModel.swift */,
+				D3A8D16A2BE9321900FA8A54 /* EquiposViewModel.swift */,
+				D369EE2C2BC922DF00B64F1F /* Extension.swift */,
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		D369ED762BC3C9CA00B64F1F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D369ED882BC44F0600B64F1F /* HeroesRow.swift */,
+				D3A8D1722BE98D9700FA8A54 /* EquipoRow.swift */,
+				D369EDD62BC6D5B500B64F1F /* AvatarListaPoderes.swift */,
+				D3A706E42BC9493300911534 /* PoderMiniCard.swift */,
+				D3A706F12BCC444C00911534 /* PoderMinicardSeria.swift */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		D369ED772BC3CA0100B64F1F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D3A706F52BCD18B100911534 /* HeroesTabView.swift */,
+				D369ED662BC3C6D800B64F1F /* ContentView.swift */,
+				D369ED8C2BC450DF00B64F1F /* HeroesDetailView.swift */,
+				D369EDD22BC6999800B64F1F /* DetailCompared.swift */,
+				D3A706E62BC94C6A00911534 /* PoderesGridView.swift */,
+				D3A706F32BCD0D9500911534 /* ListaFiltradaPoder.swift */,
+				D3A706EF2BCC2DF500911534 /* ShapesView.swift */,
+				D36058EB2BD258F300D8540A /* EnlaceCreacionView.swift */,
+				D3A8D16C2BE933BD00FA8A54 /* ListaEquiposView.swift */,
+				D3A8D16E2BE9426C00FA8A54 /* CreacionEquipoView.swift */,
+				D3A8D1702BE98D7A00FA8A54 /* DetailEquipo.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		D369ED782BC3CA1300B64F1F /* System */ = {
+			isa = PBXGroup;
+			children = (
+				D369ED642BC3C6D800B64F1F /* HeroesAppSwiftUIApp.swift */,
+			);
+			name = System;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +262,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D369ED7A2BC3CA9200B64F1F /* SuperHeroes.json in Resources */,
 				D369ED6C2BC3C6DA00B64F1F /* Preview Assets.xcassets in Resources */,
 				D369ED692BC3C6DA00B64F1F /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +275,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D369EE2D2BC922DF00B64F1F /* Extension.swift in Sources */,
+				D3A706F42BCD0D9500911534 /* ListaFiltradaPoder.swift in Sources */,
+				D369ED8B2BC44F4D00B64F1F /* PreviewData.swift in Sources */,
+				D3A706F22BCC444C00911534 /* PoderMinicardSeria.swift in Sources */,
+				D369ED832BC3F02F00B64F1F /* DataInteractor.swift in Sources */,
+				D3A706E72BC94C6A00911534 /* PoderesGridView.swift in Sources */,
+				D369EDD72BC6D5B500B64F1F /* AvatarListaPoderes.swift in Sources */,
+				D3A8D1752BEA2AAD00FA8A54 /* EquipoInteractor.swift in Sources */,
+				D3A8D1712BE98D7A00FA8A54 /* DetailEquipo.swift in Sources */,
+				D3A8D1692BE8FC3A00FA8A54 /* EquiposModel.swift in Sources */,
 				D369ED672BC3C6D800B64F1F /* ContentView.swift in Sources */,
+				D3A706E52BC9493300911534 /* PoderMiniCard.swift in Sources */,
+				D3A8D16F2BE9426C00FA8A54 /* CreacionEquipoView.swift in Sources */,
+				D3A8D16B2BE9321900FA8A54 /* EquiposViewModel.swift in Sources */,
+				D369ED8D2BC450DF00B64F1F /* HeroesDetailView.swift in Sources */,
+				D369ED872BC4023700B64F1F /* HeroesViewModel.swift in Sources */,
+				D3A8D1732BE98D9700FA8A54 /* EquipoRow.swift in Sources */,
+				D369ED7E2BC3CF7D00B64F1F /* HeroesModel.swift in Sources */,
+				D3A706F02BCC2DF500911534 /* ShapesView.swift in Sources */,
+				D369ED852BC3FE0500B64F1F /* HeroeInteractor.swift in Sources */,
+				D369ED812BC3D10F00B64F1F /* Enums.swift in Sources */,
+				D36058EC2BD258F300D8540A /* EnlaceCreacionView.swift in Sources */,
+				D3A706F62BCD18B100911534 /* HeroesTabView.swift in Sources */,
+				D369ED7C2BC3CCAD00B64F1F /* HeroesModelDTO.swift in Sources */,
+				D369EDD32BC6999800B64F1F /* DetailCompared.swift in Sources */,
 				D369ED652BC3C6D800B64F1F /* HeroesAppSwiftUIApp.swift in Sources */,
+				D369ED892BC44F0600B64F1F /* HeroesRow.swift in Sources */,
+				D3A8D16D2BE933BD00FA8A54 /* ListaEquiposView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

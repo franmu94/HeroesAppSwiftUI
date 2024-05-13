@@ -9,7 +9,27 @@ import SwiftUI
 
 struct HeroesTabView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        TabView{
+            ContentView()
+                .tabItem {
+                    VStack{
+                        Image(systemName: "figure.arms.open")
+                        Text("Heroes")
+                    }
+                    
+                }
+            PoderesGridView()
+                .tabItem {
+                    VStack{
+                        Image(systemName: "bolt.fill")
+                        Text("Poderes")
+                    }
+                }
+            ListaEquiposView()
+                .tabItem {
+                    Label ("Equipos", systemImage: "person.3")
+                }
+        }
     }
 }
 

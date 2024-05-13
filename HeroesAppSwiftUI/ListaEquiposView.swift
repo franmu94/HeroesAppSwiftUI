@@ -8,8 +8,42 @@
 import SwiftUI
 
 struct ListaEquiposView: View {
+    
+    @ObservedObject var evm = EquiposViewModel()
+    
+    @State var showCreate = false
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            List{
+                ForEach(evm.equipos) { equipo in
+                    EquipoRow(equipo: equipo)
+                }
+
+            }
+            .navigationTitle("Equipos")
+            .navigationDestination(for: Heroe.self) { heroe in
+                HeroesDetailView(heroe1: heroe)
+            }
+            .toolbar {
+                ToolbarItem(placement: .topBarTrailing){
+                    Button {
+                        showCreate.toggle()
+                        print(showCreate)
+                    } label: {
+                        Text("Nuevo Equipo")
+                    }
+                }
+            }
+            .navigationDestination(isPresented: $showCreate, destination: {
+                CreacionEquipoView(evm: evm)
+            })
+            /*.sheet(isPresented: $showCreate, content: {
+                CreacionEquipoView(evm: evm)
+            })*/
+            
+        }
+        
     }
 }
 

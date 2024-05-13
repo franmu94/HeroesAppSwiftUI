@@ -54,7 +54,7 @@ struct ShieldShape: Shape {
 
 
 
-struct Sh_pesView: View {
+struct ShapesView: View {
     var body: some View {
         ShieldShape()
             .stroke(Color.black, lineWidth: 3)
@@ -63,5 +63,5 @@ struct Sh_pesView: View {
 }
 
 #Preview {
-    Sh_pesView()
+    ShapesView()
 }
