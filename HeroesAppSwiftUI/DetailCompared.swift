@@ -49,6 +49,7 @@ struct DetailCompared: View {
                                 .font(.system(size: 13, weight: .bold))
                                 .foregroundStyle(.secondary)
                         }
+                        .padding(.top)
                         Spacer()
                         Text("V.S")
                             .italic()
