@@ -19,7 +19,7 @@ La aplicación consume datos desde un archivo `.json` que incluye registros deta
     "imagen": "telemente"
 }
 ```
-[Aquí puedes ver el archivo de enumeraciones de poderes](/HeroesAppSwiftUI/HeroesAppSwiftUI/Enums.swift)
+[Aquí puedes ver el archivo de enumeraciones de poderes](/HeroesAppSwiftUI/Enums.swift)
 
 En el .json existen dos problemas:
 
