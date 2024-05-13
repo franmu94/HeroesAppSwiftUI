@@ -32,5 +32,8 @@ tambien se crea el campo descripcionHistoria, y se le adjudica el valor de algun
 
 2. La lectura de los poderes se hace gracias a que el rawvalue String de la enum Poderes coincide con el nombre de los poderes que utiliza el .json. Pero en algunos casos, en el .json, no se respetan las mayusculas. Para solucinar este problema, una vez capturada la lista de poderes, de un heroe, se intenta en un ambito "do" la lectura como si se respetase las mayusculas, si esto falla, en el ambito catch se hace un .lowercased de cada uno de estos poderes y con la lista de todos los poderes de la enum (para obtener esta lista acudimos al metodo .allcases), se filtra por coincididencias de minusculas:
 
-[Solucion lectura de poderes](/Imagenes/Lectura de Poderes.png)
 
+
+![ListaHeroes](/Imagenes/CapturaListaHeroes.png)
+
+ ![Marmota](marmota.jpg)
