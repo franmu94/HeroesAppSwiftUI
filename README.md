@@ -38,7 +38,7 @@ tambien se crea el campo descripcionHistoria, y se le adjudica el valor de algun
 
 Cuando el usuario abre la app la primera vista con la que se encuentra es la lista de Heroes. Esta vista pertenece a un Tab View que conecta con una lista de Poderes y una lista de Equipos.
 
-###Heroes
+### Heroes
 En la lista de Heroes podemos seleccionar un heroe y se mostrara en detalle de este. 
 
 | | |
@@ -49,3 +49,4 @@ Ademas, se ha incorporado la opcion _Comparar_, para que se pueda comparar el he
 
 
 ![DetalleHeroe](/Imagenes/VideoComparar.gif) 
+<img src="/Imagenes/VideoComparar.gif" width="400" height="300" alt="DetalleHeroe">
