@@ -13,7 +13,7 @@ struct EquipoModel: Codable, Identifiable, Hashable {
     
     var id: Self { self }
         
-    static let previewEquipo = EquipoModel(name: "Ejmeplo", members: [.preview,.preview,.preview2])
+    static let previewEquipo = EquipoModel(name: "Ejmeplo", members: [.preview,.preview,.preview2,.preview,.preview, .preview2])
     let name: String
     var members: [Heroe]
     let captain: Heroe

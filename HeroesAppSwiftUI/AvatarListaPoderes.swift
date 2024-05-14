@@ -9,11 +9,10 @@ import SwiftUI
 
 struct AvatarListaPoderes: View {
   
-    let heroe: Heroe
-    
+    let poderes: [Poderes]
     var body: some View {
         
-        ForEach(heroe.poderes, id: \.self) { poder in
+        ForEach(poderes, id: \.self) { poder in
             VStack{
                 Image(poder.rawValue)
                     .resizable()
@@ -31,5 +30,5 @@ struct AvatarListaPoderes: View {
 }
 
 #Preview {
-    AvatarListaPoderes(heroe: Heroe.preview)
+    AvatarListaPoderes(poderes: Heroe.preview.poderes)
 }

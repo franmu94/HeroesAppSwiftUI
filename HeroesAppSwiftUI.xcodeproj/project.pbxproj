@@ -38,6 +38,7 @@
 		D3A8D1712BE98D7A00FA8A54 /* DetailEquipo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A8D1702BE98D7A00FA8A54 /* DetailEquipo.swift */; };
 		D3A8D1732BE98D9700FA8A54 /* EquipoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A8D1722BE98D9700FA8A54 /* EquipoRow.swift */; };
 		D3A8D1752BEA2AAD00FA8A54 /* EquipoInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A8D1742BEA2AAD00FA8A54 /* EquipoInteractor.swift */; };
+		D3D92B6A2BF35D0500BC31A8 /* HeroeMinicard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D92B692BF35D0500BC31A8 /* HeroeMinicard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +74,7 @@
 		D3A8D1702BE98D7A00FA8A54 /* DetailEquipo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEquipo.swift; sourceTree = "<group>"; };
 		D3A8D1722BE98D9700FA8A54 /* EquipoRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipoRow.swift; sourceTree = "<group>"; };
 		D3A8D1742BEA2AAD00FA8A54 /* EquipoInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipoInteractor.swift; sourceTree = "<group>"; };
+		D3D92B692BF35D0500BC31A8 /* HeroeMinicard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroeMinicard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +175,7 @@
 				D3A8D1722BE98D9700FA8A54 /* EquipoRow.swift */,
 				D369EDD62BC6D5B500B64F1F /* AvatarListaPoderes.swift */,
 				D3A706E42BC9493300911534 /* PoderMiniCard.swift */,
+				D3D92B692BF35D0500BC31A8 /* HeroeMinicard.swift */,
 				D3A706F12BCC444C00911534 /* PoderMinicardSeria.swift */,
 			);
 			name = Components;
@@ -280,6 +283,7 @@
 				D369ED8B2BC44F4D00B64F1F /* PreviewData.swift in Sources */,
 				D3A706F22BCC444C00911534 /* PoderMinicardSeria.swift in Sources */,
 				D369ED832BC3F02F00B64F1F /* DataInteractor.swift in Sources */,
+				D3D92B6A2BF35D0500BC31A8 /* HeroeMinicard.swift in Sources */,
 				D3A706E72BC94C6A00911534 /* PoderesGridView.swift in Sources */,
 				D369EDD72BC6D5B500B64F1F /* AvatarListaPoderes.swift in Sources */,
 				D3A8D1752BEA2AAD00FA8A54 /* EquipoInteractor.swift in Sources */,

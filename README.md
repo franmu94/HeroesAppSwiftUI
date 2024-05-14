@@ -50,3 +50,9 @@ En la lista de Heroes podemos seleccionar un heroe y se mostrara en detalle de e
 Ademas, se ha incorporado la opcion _Comparar_, para que se pueda comparar el heroe del detalle con cualquier otro heroe. 
 
 <img src="/Imagenes/VideoComparar.gif" width="350" height="800" alt="DetalleHeroe">
+
+
+### Poderes
+
+Para mostrar los poderes se ha obtado por un grid view, limitando la longitud a del nombre del poder a dos lineas.
+

@@ -46,7 +46,7 @@ struct HeroesDetailView: View {
                         .padding(.top)
                     Text("- Poderes -")
                     HStack{
-                        AvatarListaPoderes(heroe: heroe1)
+                        AvatarListaPoderes(poderes: heroe1.poderes)
                     }
                     HStack {
                         Spacer()

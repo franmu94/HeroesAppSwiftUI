@@ -10,12 +10,14 @@ import SwiftUI
 struct PoderesGridView: View {
     //let adaptative: [GridItem] = [GridItem(.adaptive(minimum: 115, maximum: 115), spacing: 0, alignment: .center)]
     let adaptative: [GridItem] = [GridItem(.adaptive(minimum: 115))]
-
+    
+    var poderes: [Poderes] = Poderes.allCases
+    
     var body: some View {
         NavigationStack {
             ScrollView {
                 LazyVGrid(columns: adaptative, spacing: 30) {
-                    ForEach(Poderes.allCases, id: \.self) { poder in
+                    ForEach(poderes, id: \.self) { poder in
                         NavigationLink(value: poder) {
                             PoderMinicardSeria(poder: poder)
                         }

@@ -17,14 +17,14 @@ struct ListaEquiposView: View {
         NavigationStack {
             List{
                 ForEach(evm.equipos) { equipo in
-                    EquipoRow(equipo: equipo)
+                    NavigationLink(value: equipo) {
+                        EquipoRow(equipo: equipo)
+                    }
                 }
 
             }
             .navigationTitle("Equipos")
-            .navigationDestination(for: Heroe.self) { heroe in
-                HeroesDetailView(heroe1: heroe)
-            }
+            
             .toolbar {
                 ToolbarItem(placement: .topBarTrailing){
                     Button {
@@ -38,9 +38,10 @@ struct ListaEquiposView: View {
             .navigationDestination(isPresented: $showCreate, destination: {
                 CreacionEquipoView(evm: evm)
             })
-            /*.sheet(isPresented: $showCreate, content: {
-                CreacionEquipoView(evm: evm)
-            })*/
+            .navigationDestination(for: EquipoModel.self) { equipo in
+                DetailEquipo(equipo: equipo)
+            }
+           
             
         }
         
