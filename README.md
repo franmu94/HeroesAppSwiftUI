@@ -55,12 +55,12 @@ Ademas, se ha incorporado la opcion _Comparar_, para que se pueda comparar el he
 ### Poderes
 
 Para mostrar los poderes se ha obtado por un grid view, limitando la longitud del nombre del poder a dos lineas.
-
-![ListaPoderes](/Imagenes/CapturaListaPoderes.png)
-
 El detalle del poder consiste en una lista de todos los heroes que usan dicho poder
 
-![DetallePoder](/Imagenes/CapturaDetallePoderes.png)
+| | |
+|:---:|:---:|
+| ![ListaHeroes](/Imagenes/CapturaListaPoderes.png) | ![DetalleHeroe](/Imagenes/CapturaDetallePoderes.png) |
+
 
 
 ### Equipos
