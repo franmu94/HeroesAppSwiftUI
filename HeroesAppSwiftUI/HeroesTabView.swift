@@ -31,7 +31,7 @@ struct HeroesTabView: View {
                 }
         }
     }
-}
+}     
 
 #Preview {
     HeroesTabView()

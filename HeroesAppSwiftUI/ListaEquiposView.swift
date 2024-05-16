@@ -29,18 +29,18 @@ struct ListaEquiposView: View {
                 ToolbarItem(placement: .topBarTrailing){
                     Button {
                         showCreate.toggle()
-                        print(showCreate)
                     } label: {
                         Text("Nuevo Equipo")
                     }
                 }
             }
-            .navigationDestination(isPresented: $showCreate, destination: {
-                CreacionEquipoView(evm: evm)
-            })
+           
             .navigationDestination(for: EquipoModel.self) { equipo in
                 DetailEquipo(equipo: equipo)
             }
+            .navigationDestination(isPresented: $showCreate, destination: {
+                CreacionEquipoView(evm: evm)
+            })
            
             
         }

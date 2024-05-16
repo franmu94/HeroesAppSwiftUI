@@ -49,10 +49,22 @@ En la lista de Heroes podemos seleccionar un heroe y se mostrara en detalle de e
 
 Ademas, se ha incorporado la opcion _Comparar_, para que se pueda comparar el heroe del detalle con cualquier otro heroe. 
 
-<img src="/Imagenes/VideoComparar.gif" width="350" height="800" alt="DetalleHeroe">
+<img src="/Imagenes/VideoComparar.gif" width="320" height="700" >
 
 
 ### Poderes
 
-Para mostrar los poderes se ha obtado por un grid view, limitando la longitud a del nombre del poder a dos lineas.
+Para mostrar los poderes se ha obtado por un grid view, limitando la longitud del nombre del poder a dos lineas.
 
+![ListaPoderes](/Imagenes/CapturaListaPoderes.png)
+
+El detalle del poder consiste en una lista de todos los heroes que usan dicho poder
+
+![DetallePoder](/Imagenes/CapturaDetallePoderes.png)
+
+
+### Equipos
+
+Se ha posibilato la opcion de crear equipos. Para ello en la pestaña de equipos, al pulsar "Nuevo Equipo", se podra crear un equipo, eligiendo el nombre y los integrantes. Este equipo quedara guradado en el dispositivo y se podra consultar su detalle:
+
+<img src="/Imagenes/VideoCreacionEquipos.gif" width="320" height="700">

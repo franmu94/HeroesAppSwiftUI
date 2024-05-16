@@ -30,7 +30,7 @@ struct CreacionEquipoView: View {
     
     var body: some View {
         
-        NavigationStack {
+        Group {
             Form {
                 Section {
                     VStack(alignment: .leading) {

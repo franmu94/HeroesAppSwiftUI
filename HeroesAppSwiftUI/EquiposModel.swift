@@ -23,6 +23,6 @@ struct EquipoModel: Codable, Identifiable, Hashable {
         self.name = name
         self.members = members
         self.captain = members.first ?? .preview
-        self.powers = Set(members.flatMap{ $0.poderes }).sorted { $0.rawValue > $1.rawValue}
+        self.powers = Set(members.flatMap{ $0.poderes }).sorted { $1.rawValue > $0.rawValue}
     }
 }
